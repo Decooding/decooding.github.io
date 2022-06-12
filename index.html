@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/helloStyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-fixed">
+    <div class="container-fluid">
+      <a style="font-size: 2rem" class="navbar-brand" href="#">Dee<span style="color:coral;">Coding<span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-2 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Main</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">University</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Works</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Assignment
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#">1 Task</a></li>
+              <li><a class="dropdown-item" href="#">2 Task</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Soon</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="row justify-content-evenly">
+    <div class="col-3">
+      <svg id="hello" xmlns="http://www.w3.org/2000/svg" width="330" height="167" viewBox="0 0 730 267">
+        <text data-name="Salem" transform="translate(5 5)" fill="none" stroke="rgb(230, 84, 31)" stroke-width="5"
+          font-size="184" font-family="Poppins-Regular, Poppins">
+          <tspan x="41.956" y="193">S</tspan>
+        </text>
+        <text id="Salem" data-name="Salem" transform="translate(5 5)" fill="none" stroke="#000" stroke-width="5"
+          font-size="184" font-family="Poppins-Regular, Poppins">
+          <tspan x="161.956" y="193">alem</tspan>
+          <tspan x="641.956" y="193">!</tspan>
+        </text>
+      </svg>
+
+    </div>
+    <div class="col-4 mt-5">
+      <img class="space" src="img/space.svg" alt="Figure image">
+    </div>
+    <svg class="bg-line" xmlns="http://www.w3.org/2000/svg" width="1726.803" height="1474.34"
+      viewBox="0 0 1726.803 1474.34">
+      <path
+        d="M1045.365,147.626S954.332,131.543,942.194,110.3,775.907,32.013,656.5,93.613s80.541,36.942,139.584,100.137S952.36,463.815,527.993,372.781,63.116,163.253,325.14,167.349s394.478,51.586,394.478,51.586"
+        transform="translate(-127.026 -64.818)" fill="none" stroke="#313142" stroke-width="2" />
+      <path
+        d="M1389.159,576.434s464.434,276.822,194.058,319.031-621.864-243.2-661.841-243.2S602.911,533.137,306.657,633.137s-123.437,223.4-7.725,259.172,983.4,52.466,514.873-159.172-713.213-13.215-713.213-13.215"
+        transform="translate(-99.647 -62.818)" fill="none" stroke="#e9e9e9" stroke-width="3" />
+      <path
+        d="M1379.155,718.1s-334.7,93.309-259.9,197.391-127.447,174.328-84.125,264,297.18,401.539,555.385,228.975,336.924-167.436,183.077-321.282-755.9-92.308-793.335,35.9,222.565,432.565,372.821,412.052-847.95-326.667-847.95-326.667"
+        transform="translate(-127.026 -63.818)" fill="none" stroke="#e9e9e9" stroke-width="4" />
+    </svg>
+
+  </div>
+
+  <div class="container">
+    <div class="static-text">I am</div>
+    <ul class="dynamic-text">
+      <li><span>Student</span></li>
+      <li><span>Programmer</span></li>
+      <li><span>Designer</span></li>
+      <li><span>Salauat</span></li>
+    </ul>
+  </div>
+  <div class="row align-items-end">
+    <img class="col-2" style="width:800px;" src="img/manwithbook.svg" alt="Image Man with PC">
+    <p class="aboutme col-4 ">My name is Salauat. I am a second-year student at S. Seifullin Kazakh Agrotechnical University.
+      Before that I studied at the Higher College "Astana Polytechnic". I received qualification of
+      technician-programmer, as well as several certificates from online courses related to my professions.Currently
+      working in the company "Atsolut" and holding a position of frontend-developer.</p>
+  </div>
+
+  <canvas class="wave-xp">
+  </canvas>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
+  <script src="js/line.js"></script>
+  <script src="js/wave.js"></script>
+</body>
+
+</html>
