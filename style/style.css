@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
+*{
+  /* border: 1px solid red; */
+}
+
 body{
     margin: 0;
     padding: 0;
     /* background: #1f2937; */
+    
 }
 ::-webkit-scrollbar {
     display: none;
@@ -36,27 +41,33 @@ svg{
      
 }
 
-#line-figure {
-    stroke-dasharray: 1;
-    stroke-dashoffset: 1;
-    animation: dash 10s linear alternate infinite;
-  }
-  
-  @keyframes dash {
-    from {
-      stroke-dashoffset: 1;
-    }
-    to {
-      stroke-dashoffset: 0;
-    }
+  .wrapp_uni h2{
+    font-size: 32px;
+    margin: 120px 0 25px 60px;
+    color: #014530;
+    font-weight: 500;
   }
 
-  .four{
-    font-size: 180px; 
-    text-align:center;
-    z-index: 5;
-    position:absolute;
-    /* bottom: 50px; */
-    margin: 300px 0 0 780px;
-    color: #F6CF13;
+  .wrapp_uni p{
+    font-size: 21px;
+    margin-left: 60px;
+    line-height: 28px;
+  }
+
+  .card{
+    align-items: center;
+    text-align: center;
+    height: 250px;
+
+  }
+  .card-title{
+    margin: 35px 0 25px 0;
+    font-size: 42px;
+    color: #014530;
+    font-weight: bold;
+  }
+  .card-text{
+    font-size: 18px;
+    line-height: 18px;
+    font-family: serif;
   }

@@ -16,7 +16,7 @@ const params = {
   SPEED: 1,
   OFFSET_WAVES: 55,
   NUMBER_WAVES: 3,
-  COLOR: '#ff7f50',
+  COLOR: '#3f3d56',
   NUMBER_CURVES: 2,
   OFFSET_CURVE: true,
 };

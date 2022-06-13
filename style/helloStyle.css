@@ -4,21 +4,27 @@
     top:165px;
     left: 30px;
     z-index: -1;
-    animation: line-move 3s infinite;
+    animation: line-move 6s infinite;
 
 }
 
 #hello text{
-    animation: dash 6s ;
+    animation: dash 3s ;
     
 }
 
 @keyframes line-move {
     0%{
+        stroke-dasharray: 5%;
+    }
+    50%{
         stroke-dasharray: 25%;
     }
     50%{
         stroke-dasharray: 55%;
+    }
+    70%{
+        stroke-dasharray: 75%;
     }
     100%{
         stroke-dasharray: 100%;
@@ -58,6 +64,8 @@
 .static-text {
     height: 60px;
     font-size: 60px;
+    font-family: 'Inconsolata', monospace;
+
 }
 
 .dynamic-text{
@@ -67,6 +75,8 @@
     height: 60px;
     overflow: hidden;
     /* background-color: bisque; */
+    font-family: 'Inconsolata', monospace;
+
 
 
 }
